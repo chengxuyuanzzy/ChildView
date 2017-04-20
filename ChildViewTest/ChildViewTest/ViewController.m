@@ -115,6 +115,13 @@
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
     NSInteger index = scrollView.contentOffset.x / self.backScrollView.frame.size.width;
     [self changeTabelView:index];
+    
+    [self.titleView.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (idx != index) {
+            TitleLabel *titleLabel = self.titleView.subviews[idx];
+            titleLabel.scale = 0.0;
+        }
+    }];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
