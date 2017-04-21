@@ -439,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChildViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yang.ChildViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChildViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yang.ChildViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,6 +523,7 @@
 				1572C0571EA5FF0000A919CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1572C0581EA5FF0000A919CF /* Build configuration list for PBXNativeTarget "ChildViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +532,7 @@
 				1572C05A1EA5FF0000A919CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1572C05B1EA5FF0000A919CF /* Build configuration list for PBXNativeTarget "ChildViewTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +541,7 @@
 				1572C05D1EA5FF0000A919CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
